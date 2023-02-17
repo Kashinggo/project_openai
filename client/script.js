@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://menglianai-v0k3.onrender.com', {
+    const response = await fetch('http://164.88.150.46:8000', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
